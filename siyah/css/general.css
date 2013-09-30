@@ -1,0 +1,782 @@
+/* 
+General Stylesheet
+Author: Golden Works / Also known as Starshade at Envato
+Url: http://themeforest.net/user/starshade
+*/
+p {
+	float:left;
+	width:100%;
+	margin:7px 0 7px 0;
+}
+strong {
+	font-weight:bold;
+}
+.image {
+	float:left;
+}
+.simple-clear {
+	clear:both;
+}
+#top {
+	margin:0 auto;
+	width:960px;
+	min-height:106px;
+	height:auto !important;
+	height:106px;
+	position:relative;
+	z-index:100;
+}
+#logo {
+	float:left;
+	margin:20px 0 0 0;
+}
+#logo a {
+	display:block;
+	height:75px;
+	text-indent:-9000px;
+	width:284px;
+	border-bottom:none;
+}
+#search {
+	position:absolute;
+	top:27px;
+	right:0; 
+}
+.search-input-bg {
+	float:left;
+	width:238px;
+	height:21px;
+	margin-right:6px;
+}
+.search-input {
+	background:none;
+	border:0 none;
+	float:left;
+	width:228px;
+	height:18px;
+	padding:4px 0 0 5px;  
+}
+/* start: this styles apply to submit button forms */
+.form-button {
+	float:left;
+	height:21px;
+	overflow:visible;	
+	margin:0;
+	padding:0 6px 0 0; 
+}
+.form-button span {
+	display:block;
+	height:21px;
+}
+.form-button span input {
+	background:transparent;	 	
+	border:0 none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:21px;
+	margin:0;
+	overflow:visible;	
+	padding:0 3px 0 7px;
+}	
+/* end: this styles apply to submit button forms */
+
+.jqueryslidemenu {
+	float:right;
+	margin:80px -18px 0 0;
+	z-index:100;
+	position:relative;
+}
+.jqueryslidemenu .primary-menu {
+	margin:10px 0 10px 10px;	
+}
+/*Top level list items*/
+.jqueryslidemenu ul li {
+	display:inline;
+	position:relative;
+	float:left;	
+
+}
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a {
+	display:block;
+	padding:0 18px 10px 18px; /* distance between main menu and dropdowns */
+	text-decoration:none;	
+}
+* html .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+	display:inline-block;
+}
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul {
+	display:block;
+	left:0;
+	position:absolute;
+	visibility:hidden;			
+}
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li {
+	display:list-item;
+	float:none;	
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul {						
+	margin-left:-1px;
+	margin-top:-1px;
+}
+.jqueryslidemenu ul li ul li ul a {
+	top:0;
+}
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a {
+	width: 160px; /* width of sub menus */
+	padding:6px 5px 6px 10px;
+	border-top-width: 0;	
+}
+
+#hheader-wrapper {
+	height:302px;
+	float:left;
+	width:100%;
+}
+#hheader {
+	margin:10px auto 0 auto;
+	width:960px;
+	position:relative;
+}
+#content-wrapper {
+	float:left;
+	width:100%;			
+}
+#content {
+	margin:0 auto;
+	min-height:128px;
+	height:auto !important;
+	height:128px;	
+	width:960px;
+}
+#inner-content, #sidebar {
+	float:left;
+	margin-top:20px;
+}
+#inner-content {
+	width:640px;
+	margin-right:20px; /* if you plan on using a left alligned sidebar move this property from here to the #sidebar id and invert their order in the html */
+}
+#sidebar {
+	width:300px;
+}
+#content h1 {
+	float:left;
+	margin:6px 0 0 0;
+	width:100%;
+	
+}
+#content h2 {
+	margin:10px 0 0 0;
+	padding:0;
+}
+.featured {
+	float:left;
+	margin:10px 0 0 0;
+	width:100%;	
+}
+#content .featured h2 {
+	margin:0 0 -2px 0;
+}
+.featured ul li {
+	float:left;
+	width:100%;
+	margin:4px 0 6px 0;
+}
+.fw-img {
+	float:left;
+	margin:4px 19px 0 0;
+	padding-bottom:15px;
+	display:block;
+}
+.fw-txt {
+	float:left;
+	width:461px;
+}
+.fw-txt h3 {
+	margin:3px 0 0 0;
+}
+.fw-txt p {
+	margin:3px 0 10px 0;
+}
+.box {
+	float:left;
+	margin:8px 0 0 0;
+	padding-bottom:10px;
+	width:100%;	
+}
+#content .box h2 {
+	margin:0;
+	padding-bottom:2px;
+	width:100%;	
+}
+.box-top, .box-bottom {
+	float:left;
+	width:300px;
+}
+.box-top {
+	height:16px;
+}
+.box-bottom {
+	height:8px;
+}
+.box-middle {
+	float:left;
+	width:298px;
+}
+.box-content {
+	float:left;
+	margin:0 14px 0 14px;
+	width:270px;
+}
+.ln-list {
+	margin-top:4px;
+	padding-bottom:6px;
+	float:left;
+	width:100%;
+}
+.ln-list li {
+	float:left;
+	width:100%;
+	cursor:pointer;
+	padding:6px 0 8px 0;
+}
+.ln-calendar {
+	float:left;
+	margin:10px 10px 0 15px;
+	width:28px;
+	height:19px;
+}
+.ln-txt {
+	float:left;
+	width:230px;
+}
+.ln-txt p {
+	margin:6px 0 0 0;
+}
+.pdf-icon {
+	float:left;
+	margin:10px 10px 0 14px;
+	padding-bottom:6px;
+	width:62px;
+	height:55px;
+	text-indent:-9999px;
+}
+.box-middle .brochure-txt {
+	width:196px;
+	margin:14px 0 0 0;
+}
+#footer {
+	float:left;
+	width:960px;
+	margin-top:22px;
+	min-height:88px;
+	height:auto !important;
+	height:88px;
+}
+#footer-menu {
+	float:left;
+}
+#footer-menu li {
+	float:left;
+	margin:12px 32px 0 0;
+}
+.footer-copyright {
+	float:right;
+	text-align:right;
+	margin:12px 0 0 0;
+	width:420px;
+}
+.slide-img {
+	float:left;
+}
+.home-slider {
+	width:960px;
+	z-index:6;
+}
+.hs-desc {
+	float:left;
+	margin:10px 0 0 30px;
+	width:300px; 
+}
+.hs-desc p {
+	color:#b5b5b5;
+}
+.hs-desc .button {
+	margin-top:8px;
+}
+.slide-tagline {
+	display:block;
+	float:left;
+	margin:-4px 0 10px 0;
+	width:100%;	
+}
+#nav {
+	bottom:10px;
+	height:9px;
+	left:10px;	
+	position:absolute;
+	width:900px;	
+	z-index:10;
+}
+#nav a { 
+	background:url(../images/slide_bullet.png) no-repeat 0 0;  
+	display:block;
+	height:9px;	
+	float:left;		
+	margin:0 5px 0 5px;
+	padding:0;
+	text-decoration:none; 
+	text-indent:-9999px;
+	width:9px;	
+}
+
+#nav a.activeSlide { 
+	background-position: 0px -9px;  		
+}
+#nav a:focus { 
+	outline:none; 
+}
+#output { 
+	text-align:left; 
+}
+a.button {
+	cursor:pointer;
+	display:block;
+    float: left;
+    height:21px;
+	line-height:10px;
+	padding:2px 6px 0 0;
+}
+a.button span {
+	float:left;
+	height:21px;
+	margin:-2px 0 0 0;
+    line-height:9px;
+	padding:6px 10px 8px 15px;
+}
+/* start header styles for interior pages */
+#header-wrapper {
+	min-height:122px;
+	height:auto !important;
+	height:122px;		
+	float:left;
+	width:100%;
+}
+#header {
+	margin:10px auto 10px auto;
+	width:960px;
+	position:relative;
+}
+.header-intro {
+	float:left;
+	width:640px;
+	margin-right:20px;
+}
+.header-intro h1 {
+	float:left;
+	margin:8px 0 0 0;
+	width:100%;
+}
+.header-intro p {
+	float:left;
+	margin:6px 0 6px 0;
+	width:100%;
+}
+.header-contact {
+	background:url(../images/hcontact_bg.png) no-repeat;
+	cursor:pointer;
+	height:65px;
+	float:left;
+	margin-top:6px;	
+	position:relative;
+	width:300px;
+}
+.header-contact:hover {
+	background-position:0 -65px;	
+}
+.header-contact h2 {
+	float:left;
+	width:100%;
+}
+.header-contact p {
+	margin:-2px 0 0 1px;
+}
+.hc-content {
+	float:left;
+	margin:8px 0 0 12px;
+	width:214px;
+}
+.hc-icon {
+	float:right;
+	position:relative;
+	right:12px;	
+	top:14px;
+
+}
+/* end header styles for interior pages */
+
+/* start pagination */
+.pagination {
+	float:left;
+	width:100%;
+	margin:10px 0 0 0;
+}
+.pagination ul li {
+	float:left;
+	margin:0 6px 4px 0;
+}
+.pagination a.button span {
+	padding:6px 5px 8px 11px;	
+}
+/* end pagination */
+
+/* start blog styles */
+.blog-block {
+	float:left;
+	width:100%;
+	padding-bottom:18px;
+}
+#inner-content .blog-block h2 {
+	float:left;
+	margin-bottom:3px;
+	width:100%;
+}
+.blog-info {
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+.rm-blog {
+	float:left;
+	margin-top:6px;
+	padding-top:10px;
+	width:100%;
+}
+.blog-block h3 {
+	float:left;
+	margin:12px 0 0 0;
+	width:100%;
+}
+.blog-img {
+	margin-bottom:8px;
+}
+
+/* end blog styles */
+
+/* start blog list */
+.box-list {
+	float:left;
+	width:100%;
+	padding:4px 0 6px 0;
+}
+.box-list li {
+	float:left;
+	width:100%;
+}
+.box-list li a {
+	color:#3f3f3f;	
+	display:block;
+	float:left;
+	height:24px;
+	padding:5px 0 0 34px;
+	width:264px;	
+}
+.bd-line {
+	float:left;
+	width:100%;
+	height:2px;
+}
+.rss {
+	position:absolute;
+	top:6px;
+	right:320px;
+	clear:both;
+}
+/* end blog list */
+
+/* start blog comment form */
+.blog-comment-fieldset {
+	float:left;
+	width:100%;
+	margin-top:6px;
+}
+#inner-content .blog-comment-fieldset h2 {
+	padding-bottom:2px;
+}
+.blog-comment-fieldset ul li {
+	float:left;
+	width:100%;
+	margin:4px 0 4px 0;
+}
+.blog-comment-fieldset ul li label {
+	float:left;
+	margin-left:10px;
+}
+.cinput-bg {
+	float:left;
+	width:238px;
+	height:21px;
+}
+.ctxtarea-bg {
+	float:left;
+	height:161px;
+	width:500px;	
+}
+.bc-input {
+	background:none;
+	border:0 none;	
+	margin:3px 0 0 3px;	
+	width:230px;
+}
+.bc-textarea {
+	background:none;
+	border:0 none;
+	height:154px;
+	line-height:16px;	
+	margin:3px 0 0 3px;	
+	overflow:auto;
+	width:492px;
+}
+/* end blog comment form */
+
+/* start news page styles */
+.news-list {
+	float:left;
+	width:100%;
+	margin:10px 0 10px 0;
+}
+.news-list li {
+	float:left;
+	width:100%;
+	margin:2px 0 2px 0;
+}
+.news-date {
+	float:left;
+	width:100px;
+}
+a.news-item {
+	display:block;	
+	float:left;
+	width:530px;
+}
+/* end news page styles */
+
+/* start services page styles */
+.service-block {
+	float:left;
+	width:100%;
+	margin-top:4px;
+}
+.service-block li {
+	float:left;
+	width:100%;
+	margin:10px 0 16px 0;
+}
+.service-block li h3 {
+	float:left;
+	width:540px;
+}
+.slide-control {
+	float:right;
+	margin:0;
+	padding:0;
+	height:22px;
+	width:80px;
+}
+.sc-arrow {
+	display:block;
+	padding:2px 0 0 12px;
+}
+.scontent {
+	display:none;
+	float:left;	
+	width:100%;
+}
+.sline {
+	float:left;
+	height:1px;
+	width:100%;	
+}
+.scontent-box {
+	float:left;
+	margin:0 14px 0 14px;
+	padding-bottom:14px;
+	width:610px;
+}
+*:first-child+html .scontent-box {
+/*	margin:0 14px 0 14px;*/
+}
+body .scontent-box p {
+	float:none;
+	width:auto;
+	margin:0 0 10px 0; 
+}
+.scontent-box ul {
+	float:left;
+	width:100%;
+}
+.scontent-box ul li {
+	float:left;
+	margin:0 0 4px 0;	 
+	padding-left:12px;
+}
+.scontent-box .left-img {
+	float:left;
+	margin:4px 10px 5px 0;
+}
+/* end services page styles */
+
+/* START contact form styles */
+.contact-fieldset {
+	float:left;
+	width:100%;	
+}
+.contact-fieldset ul {
+	float:left;
+	margin-top:10px;
+	width:100%;
+}
+.contact-fieldset ul li {
+	float:left;
+	margin:5px 0 5px 0;
+	width:100%;
+}
+.contact-fieldset ul li label {
+	float:left;
+	width:100px;
+}
+.contact-input {
+	background:none;
+	border:0 none;
+	float:left;
+	padding:2px;
+	width:224px;
+	margin:2px 0 0 1px;	
+}
+.contact-textarea {
+	background:none;
+	border:0 none;
+	height:142px;
+	float:left;
+	overflow:auto;
+	padding:2px;
+	width:314px;
+	margin:0 0 0 1px;
+}
+.contact-submit {
+	margin-left:100px;
+}
+.ctinput-bg {
+	float:left;
+	height:21px;
+	width:530px;
+}
+.cttxtarea-bg {
+	float:left;
+	height:151px;
+	width:530px;
+}
+.contact-error, .contact-success {
+	float:left;
+	padding:0 14px 0 14px;
+}
+/* END contact form styles */
+.hq-address li {
+	margin:6px 0 6px 0;
+}
+.map-box {
+	float:left;
+	padding-bottom:10px;
+	width:100%;	
+}
+.map-img {
+	margin-top:4px;
+}
+.paragraph-adjust p {
+	float:none;
+	width:auto;
+	margin:8px 0 12px 0;
+}
+.left-img {
+	float:left;
+	margin:6px 10px 3px 0;
+}
+/* START table styles */
+.tbl {
+	float:left;
+	margin-top:10px;
+	width:100%;
+}
+*:first-child+html .tbl { /* this applies only to ie7 */
+	margin-bottom:10px;
+}
+.tbl td {
+	float:left;
+}
+.tbl tr td {
+	padding:4px 0 4px 14px;
+}
+.tbl tr .td-1 { 
+	width:116px; 
+}
+.tbl tr .td-2 {
+	width:105px; 
+}
+.tbl tr .td-3 {
+	width:98px; 
+}
+.tbl tr .td-4 {
+	width:120px; 
+}
+.tbl tr .td-5 {
+	width:128px; 
+}
+/* END table styles */
+
+/* start work portfolio gallery */
+.full-width {
+	float:left;
+	width:100%;
+	margin-top:20px; 
+	min-height:130px;
+	height:auto !important;
+	height:130px;
+  
+}
+.work-list {
+	float:left;
+	width:990px; 
+	margin:0 0 0 -30px;
+}
+.work-list li {
+	float:left;
+	width:300px;
+	margin:20px 0 20px 30px;
+	position:relative;
+}
+.work-label {
+	position:absolute;
+	bottom:18px;
+	left:0;
+}
+.work-label a {
+	display:block;
+	height:21px;
+	padding:2px 8px 0 8px;
+}
+.decoration {
+	float:left;
+	height:2px;
+	width:100%;
+}
+/* end work portfolio gallery */
+
+
+
+
+

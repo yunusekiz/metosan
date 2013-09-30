@@ -1,0 +1,319 @@
+/*
+ORANGE GREEN CSS THEME 
+Author: Golden Works / Also known as Starshade at Envato
+Url: http://themeforest.net/user/starshade
+*/
+
+body {
+	color:#6e6e6e;
+	background:#ecf6e6;	
+}
+a { /* links color */
+	color:#6e6e6e;	
+}
+a:hover { /* links color for hover state */
+	color:#626262;	
+}
+/* start adding underscores for all links situated between paragraphs and footer-copyright class */
+p a, .footer-copyright a {
+	color:#626262;
+	border-bottom:1px solid #9f9f9f;
+}
+p a:hover, .footer-copyright a:hover {
+	color:#626262;	
+	border-bottom:1px solid #ff7447;
+}
+/* end - adding underscores for all links situated between paragraphs and footer-copyright class */
+input, textarea {
+	color:#ff7447; /* text color for form inputs */
+}
+h1, h2 {
+	color:#ff7447; /* header 1 and 2 colors */
+}
+h3 {
+	color:#6e6e6e; /* header 3 color */
+}
+h3 a {
+	color:#626262; /* header 3 color with link */
+}
+h3 a:hover {
+	color:#ff7447; /* header 3 color with link, hover state */
+}
+.hs-desc h1, .header-intro h1 {
+	color:#fff;
+}
+#logo a {/* this is the actual logo */
+	background:url(logo.png) no-repeat;
+}
+.search-input-bg { /* search input background */
+	background:url(search_bg.gif) no-repeat left;
+}
+.ln-calendar {
+	background:url(calendar_icon.gif) no-repeat;
+}
+/* start: these styles apply to form buttons */
+.form-button {
+	background:transparent url(bg_button_a.png) no-repeat top right;	
+}
+.form-button span {
+	background:transparent url(bg_button_span.png) no-repeat;
+}
+.form-button span input {
+	color:#fff;
+}
+.form-button span input:hover {
+	color:#fff;
+}
+/* end: these styles apply to form buttons */
+
+#top .jqueryslidemenu ul .selected a { /* selected menu text color */
+	color:#626262;
+} 
+
+#hheader-wrapper { /* header background for homepage */
+	background:#333736 url(hheader_bg.png) repeat-x top;
+	border-bottom:1px solid #787979;
+}
+#content-wrapper {
+/*	background:url(wcontent_bg.gif) repeat-x top; */
+}
+#content {
+/*	background:url(content_top.gif) no-repeat top center; */
+}
+.h-tagline, .slide-tagline {
+	color:#ff7a49;
+}
+.featured ul li {
+	border-bottom:1px solid #d3ddc6;
+}
+.box-top {
+	background:url(box_top.png) no-repeat top;
+}
+.box-bottom {
+	background:url(box_bottom.png) no-repeat top;
+}
+.box-middle {
+	background:#fff;
+	border-left:1px solid #cacaca;
+	border-right:1px solid #cacaca;		
+}
+.ln-date { /* latest news date */
+	color:#a9a9a9;
+}
+.ln-txt p a {
+	color:#3f3f3f;
+}
+.ln-txt p a:hover {
+	color:#ff7447;
+}
+.ln-active {
+	background:#f1f4ee;
+}
+.ln-active .ln-link { /* links color on mouseover for latest news home block */
+	color:#ff7447;
+}
+.pdf-icon {
+	background:url(pdf_icon.png) no-repeat;
+}
+.brochure-txt a {
+	color:#3f3f3f;
+}
+.brochure-txt a:hover {
+	color:#ff7447;
+}
+#footer {
+	border-top:1px solid #d3ddc6;
+}
+#footer-menu li a {
+	color:#3f3f3f;
+}
+#footer-menu li a:hover {
+	color:#ff7447;
+}
+/* start main menu styles */
+.jqueryslidemenu ul li a {
+	background-color:#ecf6e6; /* background of tabs (default state) */
+	color:#3f3f3f;
+}
+.jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited {
+	color:#3f3f3f;
+}
+.jqueryslidemenu ul li a:hover {
+	/* background:#efefef; tab link background during hover state */
+	color:#ff7447;
+}	
+#top .jqueryslidemenu ul li ul {
+	border-top:1px solid #e4efdd; /* border top of first sub level menu */
+}
+#top .jqueryslidemenu ul li ul li ul {
+	border-top:1px solid #e4efdd;
+}
+#top .jqueryslidemenu ul li ul li a {
+	border-bottom:1px solid #e4efdd;
+	border-left:1px solid #e4efdd;
+	border-right:1px solid #e4efdd;
+}
+.jqueryslidemenu ul li ul li a:hover { /*sub menus hover style */
+	background-color:#e3eddc;
+	color:#ff7447;
+}
+/* end main menu styles */
+
+.hs-desc p { /* font paragraph color for header area */
+	color:#cbcbcb;
+}
+a.button { /* generic buttons background */
+	background:transparent url(bg_button_a.png) no-repeat top right;	
+}
+a.button span { /* generic buttons background and text color */
+	background:transparent url(bg_button_span.png) no-repeat;
+	color:#fff;	
+}
+a.button:hover span { /* color for read more buttons situated in inner-content area, that is the body area - excluding header */
+	color:#fff;
+}
+#header-wrapper { /* header background for interior pages */
+	background:#333736 url(header_bg.png) repeat-x top;
+	border-bottom:1px solid #787979;
+}
+.header-intro p { /* color for interior headers' paragraphs */
+	color:#cbcbcb;
+}
+.header-contact h2 a, .header-contact h2 a:hover { /* color for small right top contact box for interior pages */
+	color:#fff;
+}
+/* start blog details styles: published date, category and comments */
+.blog-info {
+	color:#9f9f9f;
+}
+.blog-info span {
+	color:#9e9e9e;
+}
+.blog-info a {
+	color:#9e9e9e;
+}
+.blog-info a:hover {
+	color:#ff7447;
+}
+/* end blog details styles: published date, category and comments */
+
+.rm-blog { /* this is the border color above read more button on blog list page */
+	border-top:1px solid #d3ddc6;
+}
+.blog-block h2 a {
+	color:#ff7447;
+}
+.blog-block h2 a:hover {
+	border-bottom:1px solid #ff7447;
+}
+a.active-pag span { /* color for active pagination link */
+	color:#fff;
+}
+.box-list li a { /* color for sidebar box lists(secondary navigation, blog categories/archives/etc) */
+	color:#3f3f3f;
+	background:#fff url(nav_arrow.gif) no-repeat 14px 1px;
+}
+.box-list li a:hover, .box-list .bl-active a { /* color for sidebar box lists(secondary navigation, blog categories/archives/etc) hover state */
+	color:#ff7447;
+	background:#f1f4ee url(nav_arrow.gif) no-repeat 14px -27px;
+}
+.bd-line { /* line(or decoration) color/background present on blog detail page */
+	border-top:1px solid #d3ddc6;
+}
+.cinput-bg {/* comments input background */
+	background:url(comment_input_bg.gif) no-repeat;
+}
+.ctxtarea-bg {/* comments textarea background */
+	background:url(textarea_bg.gif) no-repeat;
+}
+a.news-item { /* links color on news archive page */
+	color:#3f3f3f;
+}
+a.news-item:hover {
+	color:#ff7447; /* links color on news archive page, hover state */
+}
+/* start slide switch button styles on services page */
+.slide-control {
+	background:url(slide_control.gif) no-repeat;
+}
+.slide-control a {
+	color:#fff;
+}
+.slide-control a:hover {
+	color:#fff;
+}
+.sc-arrow {
+	background:url(service_arrow.gif) no-repeat 58px -12px;
+}
+.active {
+	background:url(service_arrow.gif) no-repeat 58px 8px;
+}
+/* end slide switch button styles on services page */
+.scontent { /* hidden div on service pages */
+	background:#ddedd3;
+}
+.sline {/* service block underscore */
+	border-top:1px solid #d3ddc6;
+}
+.scontent-box ul li {
+	background:url(list_bullet.gif) no-repeat 0 8px;
+}
+.ctinput-bg { /* contact input background */
+	background:url(contact_input_bg.gif) no-repeat left;
+}
+.cttxtarea-bg { /* contact textarea background */
+	background:url(contact_textarea_bg.gif) no-repeat left;
+}
+
+/* start error messages styles */
+.contact-error {
+	border:1px solid #eda0a0;
+	background:#fde3e3;
+}
+.contact-success {
+	border:1px solid #bae5cb;
+	background:#daffe9;
+}
+.contact-jerror {
+	color:#ff502d;
+	float:left;
+	line-height:16px;
+	margin:1px 0 0 10px;
+	width:201px;
+}
+/* end error messages styles */
+
+.map-txt { /* small text color situated under map image on contact page */
+	color:#9e9e9e;
+}
+
+/* START table styles */
+.tbl thead tr .thead-leftc { /* table left rounded corner */
+	background:#ff7a49 url(tbl_left_rounded.gif) no-repeat top left;
+}
+.tbl thead tr .thead-rightc {/* table right rounded corner */
+	background:#ff7a49 url(tbl_right_rounded.gif) no-repeat top right;
+}
+.tbl thead tr td { /* table header background */
+	background:#ff7a49;	
+	color:#fff;
+}
+.tbl tbody tr td { /* table row line */
+	border-bottom:1px solid #d3ddc6;
+}
+.tbl .odd td { /* table background for odd rows 1, 3, 5... */
+	background:#ecf6e6;
+}
+.tbl .even td { /* table background for even rows 2, 4, 6... */
+	background:#ddedd3;
+}
+/* END table styles */
+
+.work-label a { /* work gallery label decoration */
+	background:#282828;
+	color:#ecf6e6;
+}
+.work-label a:hover { /* work gallery label decoration */
+	background:#ff7447;
+	color:#fff;
+}
