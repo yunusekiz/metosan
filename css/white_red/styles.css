@@ -28,19 +28,22 @@ input, textarea {
 	color:#b80707; /* text color for form inputs */
 }
 h1, h2 {
-	color:#993333; /* header 1 and 2 colors */
+	/*color:#993333;*/ /* header 1 and 2 colors */
+	color: white;
 }
 h3 {
 	color:#666666; /* header 3 color */
 }
 h3 a {
 	color:#3f3f3f; /* header 3 color with link */
+	font-weight: bold;
 }
 h3 a:hover {
 	color:#993333; /* header 3 color with link, hover state */
 }
 .hs-desc h1 {
-	color:#993333;
+	/*color:#993333;*/
+	color: white;
 }
 #logo a {/* this is the actual logo */
 	background:url(logo.png) no-repeat;
@@ -98,9 +101,11 @@ h3 a:hover {
 }
 .ln-date { /* latest news date */
 	color:#a9a9a9;
+	font-weight: bold;
 }
 .ln-txt p a {
 	color:#3f3f3f;
+	font-weight: bold;
 }
 .ln-txt p a:hover {
 	color:#b80707;
@@ -210,6 +215,7 @@ a.active-pag span { /* color for active pagination link */
 .box-list li a { /* color for sidebar box lists(secondary navigation, blog categories/archives/etc) */
 	color:#3f3f3f;
 	background:#fff url(nav_arrow.gif) no-repeat 14px 1px;
+	font-weight: bold;
 }
 .box-list li a:hover, .box-list .bl-active a { /* color for sidebar box lists(secondary navigation, blog categories/archives/etc) hover state */
 	color:#b80707;

@@ -31,7 +31,7 @@ a.button {
     font-family:Verdana, Arial, Helvetica, sans-serif;
 }
 .ln-date {
-	font-size:10px;
+	font-size:11px;
 }
 .ln-txt p {
 	font-size:12px;
@@ -50,6 +50,7 @@ a.button {
 }
 .jqueryslidemenu ul li a {
 	font-size:12px;
+	font-weight: bold;
 }
 .jqueryslidemenu ul li ul li a {
 	font-size:11px;
